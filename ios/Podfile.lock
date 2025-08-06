@@ -1,0 +1,75 @@
+PODS:
+  - AEPAssurance (5.0.1):
+    - AEPCore (< 6.0.0, >= 5.0.0)
+    - AEPServices (< 6.0.0, >= 5.0.0)
+  - AEPCore (5.6.0):
+    - AEPRulesEngine (< 6.0.0, >= 5.0.0)
+    - AEPServices (< 6.0.0, >= 5.6.0)
+  - AEPIdentity (5.6.0):
+    - AEPCore (< 6.0.0, >= 5.6.0)
+  - AEPLifecycle (5.6.0):
+    - AEPCore (< 6.0.0, >= 5.6.0)
+  - AEPRulesEngine (5.0.0)
+  - AEPServices (5.6.0)
+  - AEPSignal (5.6.0):
+    - AEPCore (< 6.0.0, >= 5.6.0)
+  - AEPUserProfile (5.0.0):
+    - AEPCore (< 6.0.0, >= 5.0.0)
+  - Flutter (1.0.0)
+  - flutter_aepassurance (5.0.0):
+    - AEPAssurance (~> 5.0)
+    - Flutter
+  - flutter_aepcore (5.0.0):
+    - AEPCore (< 6.0.0, >= 5.4.0)
+    - AEPIdentity (< 6.0.0, >= 5.4.0)
+    - AEPLifecycle (< 6.0.0, >= 5.4.0)
+    - AEPSignal (< 6.0.0, >= 5.4.0)
+    - Flutter
+  - flutter_aepuserprofile (5.0.0):
+    - AEPUserProfile (~> 5.0)
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - flutter_aepassurance (from `.symlinks/plugins/flutter_aepassurance/ios`)
+  - flutter_aepcore (from `.symlinks/plugins/flutter_aepcore/ios`)
+  - flutter_aepuserprofile (from `.symlinks/plugins/flutter_aepuserprofile/ios`)
+
+SPEC REPOS:
+  trunk:
+    - AEPAssurance
+    - AEPCore
+    - AEPIdentity
+    - AEPLifecycle
+    - AEPRulesEngine
+    - AEPServices
+    - AEPSignal
+    - AEPUserProfile
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  flutter_aepassurance:
+    :path: ".symlinks/plugins/flutter_aepassurance/ios"
+  flutter_aepcore:
+    :path: ".symlinks/plugins/flutter_aepcore/ios"
+  flutter_aepuserprofile:
+    :path: ".symlinks/plugins/flutter_aepuserprofile/ios"
+
+SPEC CHECKSUMS:
+  AEPAssurance: df04baeace42befb0cc213fd6cdfe51651d11ba6
+  AEPCore: 404a4c600f5a885031a7e9b1e646ea9405d94b24
+  AEPIdentity: 79ece5dc66d501b8abc9c9fc67d61fc15c098da7
+  AEPLifecycle: 75e6a1870259c9b50b26f1ae6f6bbe6f25fe2907
+  AEPRulesEngine: fe5800653a4bee07b1e41e61b4d5551f0dba557b
+  AEPServices: cbdac48662ef2f1001d05d47b5930a397a8beaab
+  AEPSignal: fc0bcf6f228a35568af06a715326209d8d0857f1
+  AEPUserProfile: cf36305d683d993d528337a46b7a269029b63e5d
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  flutter_aepassurance: eec6156fe1f6324f05546b7df34f3f0d18187f71
+  flutter_aepcore: 5de99ca989c8f31c5a715ae5c2bf864b01518936
+  flutter_aepuserprofile: c9c84653ece987b2ed5c9c8d49735c79aa362314
+
+PODFILE CHECKSUM: 819463e6a0290f5a72f145ba7cde16e8b6ef0796
+
+COCOAPODS: 1.14.3
